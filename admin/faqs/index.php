@@ -1,10 +1,11 @@
+<?php require_once "../components/session.php";?>
+
 <?php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-session_start();
-$is_logged_in = isset($_SESSION['user_id']) && isset($_SESSION['email']);
+ $is_logged_in = isset($_SESSION['user_id']) && isset($_SESSION['email']);
 $user_email = $is_logged_in ? $_SESSION['email'] : null;
 $page = 'faqs';
 
