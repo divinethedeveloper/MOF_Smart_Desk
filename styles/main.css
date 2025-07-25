@@ -1,0 +1,58 @@
+   /* Variables for consistent styling */
+   :root {
+    --primary-bg: #FFFFFF;
+    --header-bg: #F8F9FA;
+    --text-dark: #2B2B2B;
+    --text-light: #6c757d;
+    --accent-green: #007F5F;
+    --accent-gold:rgb(98, 84, 4);
+    --button-bg: #F0F0F0;
+    --button-text: #343A40;
+    --border-light: #E0E0E0;
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-medium: rgba(0, 0, 0, 0.1);
+    --transition-speed: 0.2s;
+    --border-radius-sm: 8px;
+    --border-radius-md: 12px;
+    --padding-lg: 40px;
+    --padding-md: 24px;
+    --padding-sm: 16px;
+}
+
+body.dark-mode {
+    --primary-bg: #181A1B;
+    --header-bg: #23272A;
+    --text-dark: #F3F3F3;
+    --text-light: #B0B3B8;
+    --accent-green: #00B894;
+    --accent-gold: #FFD700;
+    --button-bg: #23272A;
+    --button-text: #F3F3F3;
+    --border-light: #33383B;
+    --shadow-light: rgba(0, 0, 0, 0.2);
+    --shadow-medium: rgba(0, 0, 0, 0.3);
+}
+
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-dark);
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+
+
+    

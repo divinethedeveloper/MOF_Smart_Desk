@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "title": "General Technical Issues",
+      "questions": [
+        {
+          "question": "1. Document not printing",
+          "answer": "1. Ensure the printer has paper and no paper jam\n2. Clear any stuck print jobs\n3. Confirm credentials are correct\n4. Restart the printer"
+        },
+        {
+          "question": "2. PC not booting",
+          "answer": "1. Plug PC into a working power outlet\n2. Check for power light indicator at the back\n3. Hold the power button for 5–10 seconds\n4. Contact IT Support"
+        },
+        {
+          "question": "3. Internet or browser not working",
+          "answer": "1. Try accessing www.mofep.gov.gh in another browser\n2. Check network icon or Wi-Fi status\n3. Confirm Ethernet light is on, if wired\n4. Reinsert the Ethernet cable\n5. Contact IT Support"
+        },
+        {
+          "question": "4. Outlook not receiving emails",
+          "answer": "1. Confirm internet is active\n2. Check spam/junk folder and mailbox storage\n3. Restart Outlook\n4. Contact IT Support"
+        },
+        {
+          "question": "5. Unable to sign in to Microsoft Office",
+          "answer": "1. Ensure internet is working\n2. Confirm login credentials\n3. Restart your PC\n4. Contact IT Support"
+        },
+        {
+          "question": "6. PC not on domain",
+          "answer": "Contact IT Support via the official support form to resolve domain issues"
+        },
+        {
+          "question": "7. Slow PC performance",
+          "answer": "1. Delete unnecessary or large files to free up space\n2. Close unused background apps\n3. Restart the PC\n4. Contact IT Support if unresolved"
+        },
+        {
+          "question": "8. Slow internet connection",
+          "answer": "1. Restart the router or your device\n2. Contact IT Support for diagnostics"
+        },
+        {
+          "question": "9. Wi-Fi not connecting",
+          "answer": "1. Confirm Wi-Fi password is correct\n2. Ensure device is discoverable and Wi-Fi is enabled\n3. Contact IT Support"
+        },
+        {
+          "question": "10. Faulty Ethernet cable",
+          "answer": "Contact IT Support for inspection or replacement"
+        },
+        {
+          "question": "11. Password reset request",
+          "answer": "Contact IT Support via the official support form to reset your password securely"
+        },
+        {
+          "question": "12. Monitor not displaying output",
+          "answer": "1. Check power and display cables\n2. Confirm monitor is powered on and correct input is selected\n3. Try a different cable or monitor"
+        },
+        {
+          "question": "13. Keyboard or mouse not working",
+          "answer": "1. Reconnect the device or change batteries\n2. Try different USB ports or another PC\n3. Contact IT Support if unresponsive"
+        },
+        {
+          "question": "14. Unable to access shared drive or folder",
+          "answer": "1. Ensure you are connected to the network\n2. Restart your PC\n3. Contact IT Support for access permissions"
+        },
+        {
+          "question": "15. Application crashing or not opening",
+          "answer": "1. Restart the application or PC\n2. Ensure the software is updated\n3. Contact IT Support"
+        },
+        {
+          "question": "16. Printer shows 'Offline' status",
+          "answer": "1. Make sure the printer is powered on and network-connected\n2. Set printer to 'Use Printer Online' in settings\n3. Restart PC and printer"
+        },
+        {
+          "question": "17. Audio not working",
+          "answer": "1. Check volume settings and mute status\n2. Confirm correct playback device is selected\n3. Reconnect audio devices or restart PC"
+        },
+        {
+          "question": "18. Screen freezing or system hanging",
+          "answer": "1. Wait or press Ctrl + Alt + Delete to access Task Manager\n2. End unresponsive tasks or restart the PC\n3. Contact IT Support for persistent issues"
+        },
+        {
+          "question": "19. Unable to access intranet or internal portals",
+          "answer": "1. Confirm connection to the office network\n2. Clear browser cache or try a different browser\n3. Contact IT Support"
+        },
+        {
+          "question": "20. VPN connection failing",
+          "answer": "1. Ensure internet is active before connecting\n2. Confirm VPN credentials\n3. Restart VPN app or your device"
+        },
+        {
+          "question": "21. File not saving or syncing to OneDrive",
+          "answer": "1. Confirm you're signed into OneDrive with internet access\n2. Check file path and name for unsupported characters\n3. Restart OneDrive"
+        },
+        {
+          "question": "22. Microsoft Teams not working",
+          "answer": "1. Restart Teams or use the web version\n2. Clear Teams cache from app settings\n3. Confirm you’re logged into the correct account"
+        },
+        {
+          "question": "23. Software installation request",
+          "answer": "Submit a request through the official IT support form for approval and installation"
+        },
+        {
+          "question": "24. Security alert or suspicious email",
+          "answer": "1. Do not click on any suspicious links or attachments\n2. Report the email to IT Security via support form\n3. Delete the email after reporting"
+        },
+        {
+          "question": "25. Device auto-restarting or shutting down",
+          "answer": "1. Check for overheating or blocked vents\n2. Ensure all power cables are secure\n3. Contact IT Support for hardware inspection"
+        }
+      ]
+    }
+  ]
+}

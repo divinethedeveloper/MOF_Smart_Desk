@@ -1,0 +1,137 @@
+{
+  "standard_responses": {
+    "login": "You can access the portal at https://portal.mof.gov.gh. Just use your staff credentials to log in!",
+     "leave_policy": "Curious about leave policies? Check the HR Handbook on the intranet or reach out to the Human Resources team for details.",
+    "payroll_schedule": "Wondering when payday is? Find the payroll schedule on the HR portal under 'Staff Resources' or give payroll services a shout for exact dates.",
+    "pension_inquiry": "Got pension questions? Contact the National Pensions Regulatory Authority (NPRA) or the Ministry’s Pensions Desk for help.",
+    "budget_information": "Want to dive into budget details? Public budget documents and reports are available at https://mofep.gov.gh/budget.",
+    "tax_filing": "Need tax filing info? Visit the Ghana Revenue Authority (GRA) website at https://gra.gov.gh for deadlines and guidance.",
+    "procurement_guidelines": "Looking for procurement rules? Check the Public Procurement Act or connect with the Procurement Unit for tender specifics.",
+    "wifi_access": "To get online, connect to 'MoF Secure' with your staff credentials. If it’s not working, reach out to IT for help.",
+    "printer_not_working": "Printer acting up? Make sure it’s powered on and connected. If it’s still not cooperating, contact the IT Helpdesk.",
+    "software_request": "Need new software? Fill out the IT service request form and get your supervisor’s approval to get started.",
+    "email_quota": "Email inbox full? Clear out old emails or request extra storage from the IT team."
+  },
+  "multi_keyword_responses": {
+    "printer,not,working": {
+      "response": "Oh no, printer troubles? Let’s get it sorted:\n\n1. Check if the printer has paper and isn’t jammed.\n\n2. Clear any stuck print jobs in the queue.\n\n3. Double-check your login credentials.\n\n4. Give the printer a quick restart.\n\n5. Still stuck? Reach out to IT at itsupport@mof.gov.gh or call +233 (0)30 XXXXXXX.",
+      "required_keywords": 2
+    },
+    "pc,not,booting": {
+      "response": "PC not starting? Don’t worry, try these steps:\n\n1. Make sure it’s plugged into a working power outlet.\n\n2. Look for the power light at the back of the PC.\n\n3. Hold the power button for 5–10 seconds, then release and wait.\n\n4. If it’s still not working, contact IT Support via the support form.",
+      "required_keywords": 2
+    },
+    "internet,browser,not working": {
+      "response": "Can’t get online? Let’s troubleshoot:\n\n1. Try opening www.mofep.gov.gh in a different browser.\n\n2. Check if the network icon shows you’re connected or if Wi-Fi is enabled.\n\n3. For wired connections, ensure the Ethernet cable’s light is on—replug it if needed.\n\n4. Restart your router or PC.\n\n5. Still no luck? Contact IT Support for help.",
+      "required_keywords": 2
+    },
+    "outlook,email,not receiving": {
+      "response": "Not seeing your emails in Outlook? Here’s what to try:\n\n1. Confirm your internet connection is working.\n\n2. Check your junk or spam folders and mailbox storage limits.\n\n3. Restart Outlook to refresh it.\n\n4. If emails are bouncing, verify the recipient’s address and your inbox quota.\n\n5. Need more help? Reach out to IT at itsupport@mof.gov.gh.",
+      "required_keywords": 2
+    },
+    "microsoft,office,sign in": {
+      "response": "Trouble signing into Microsoft Office? Let’s fix it:\n\n1. Ensure your internet connection is stable.\n\n2. Double-check your username and password.\n\n3. Restart your computer and try again.\n\n4. Still having issues? Contact IT Support via the support form.",
+      "required_keywords": 2
+    },
+    "pc,domain,not joined": {
+      "response": "PC not joined to the domain? No problem, just reach out to IT Support via the official support form, and they’ll get you connected.",
+      "required_keywords": 2
+    },
+    "slow,pc,performance": {
+      "response": "Is your PC moving like a snail? Try these:\n\n1. Check if your hard drive is full—delete unneeded files.\n\n2. Close any unused apps running in the background.\n\n3. Restart your PC to give it a breather.\n\n4. Run an antivirus scan to rule out issues.\n\n5. Still slow? Contact IT Support for a deeper look.",
+      "required_keywords": 2
+    },
+    "slow,internet,connection": {
+      "response": "Internet dragging? Let’s speed things up:\n\n1. Check if other apps are hogging bandwidth.\n\n2. Restart your router or device.\n\n3. If it’s still slow, contact IT Support via the support form for diagnostics.",
+      "required_keywords": 2
+    },
+    "wifi,not,connecting": {
+      "response": "Wi-Fi giving you a headache? Here’s what to do:\n\n1. Double-check the Wi-Fi password.\n\n2. Make sure your device’s Wi-Fi is turned on and discoverable.\n\n3. Connect to 'MoF Secure' using your staff credentials.\n\n4. Still can’t connect? Reach out to IT Support for assistance.",
+      "required_keywords": 2
+    },
+    "ethernet,cable,faulty": {
+      "response": "Ethernet cable acting up? Contact IT Support via the official support form to request a replacement or inspection.",
+      "required_keywords": 2
+    },
+    "password,reset,request": {
+      "response": "Forgot your password? No stress, here’s how to reset it:\n\n1. Head to portal.mof.gov.gh/reset.\n\n2. Enter your staff ID.\n\n3. Verify your identity.\n\n4. Set a new password.\n\n5. If you hit a snag, contact IT Support for help.",
+      "required_keywords": 2
+    },
+    "monitor,not,displaying": {
+      "response": "Monitor not showing anything? Let’s troubleshoot:\n\n1. Ensure power and display cables are securely connected.\n\n2. Check that the monitor is on and set to the correct input source.\n\n3. Try a different cable or monitor if available.\n\n4. Still blank? Contact IT Support for help.",
+      "required_keywords": 2
+    },
+    "keyboard,mouse,not working": {
+      "response": "Keyboard or mouse not responding? Try this:\n\n1. Disconnect and reconnect the device.\n\n2. For wireless devices, check batteries or the USB dongle.\n\n3. Test in another port or PC.\n\n4. If it’s still not working, report to IT for a replacement.",
+      "required_keywords": 2
+    },
+    "shared,folder,access": {
+      "response": "Can’t access a shared folder? Here’s the plan:\n\n1. Ensure you’re connected to the office network.\n\n2. Restart your PC and try again.\n\n3. Email IT Support with the folder name and why you need access.\n\n4. Note: Supervisor approval might be needed.",
+      "required_keywords": 2
+    },
+    "application,crashing,not opening": {
+      "response": "App crashing or won’t open? Let’s get it back on track:\n\n1. Restart the app or your PC.\n\n2. Check if the software is up to date.\n\n3. If the issue persists, send a screenshot to IT for troubleshooting.",
+      "required_keywords": 2
+    },
+    "printer,offline,status": {
+      "response": "Printer showing offline? Here’s how to fix it:\n\n1. Ensure the printer is powered on and connected to the network.\n\n2. Right-click the printer icon, select 'Set as Default' and 'Use Printer Online.'\n\n3. Restart the printer or PC.\n\n4. Still offline? Contact IT Support.",
+      "required_keywords": 2
+    },
+    "audio,not,working": {
+      "response": "No sound? Let’s troubleshoot:\n\n1. Check if the volume is muted or turned down.\n\n2. Confirm the correct playback device is selected.\n\n3. Replug headphones or speakers, or restart your PC.\n\n4. If it’s still silent, contact IT Support for driver or hardware checks.",
+      "required_keywords": 2
+    },
+    "screen,freezing,hanging": {
+      "response": "Screen freezing up? Try these steps:\n\n1. Wait a moment to see if it recovers.\n\n2. Press Ctrl + Alt + Delete to open Task Manager and end unresponsive tasks.\n\n3. Restart your PC.\n\n4. If it keeps happening, contact IT Support for diagnostics.",
+      "required_keywords": 2
+    },
+    "intranet,portal,access": {
+      "response": "Can’t get into the intranet or portals? Here’s what to do:\n\n1. Ensure you’re on the office network (Wi-Fi or Ethernet).\n\n2. Clear your browser cache or try a different browser.\n\n3. If it’s still not working, contact IT Support.",
+      "required_keywords": 2
+    },
+    "vpn,connection,failing": {
+      "response": "VPN not connecting? Let’s fix it:\n\n1. Ensure your internet is working.\n\n2. Verify your VPN credentials and settings.\n\n3. Restart the VPN app or your device.\n\n4. Still no connection? Contact IT Support.",
+      "required_keywords": 2
+    },
+    "onedrive,file,not syncing": {
+      "response": "OneDrive not syncing? Here’s the fix:\n\n1. Ensure you’re signed into OneDrive and have an active internet connection.\n\n2. Check file names for unsupported characters.\n\n3. Restart the OneDrive app.\n\n4. If it’s still not syncing, contact IT for help.",
+      "required_keywords": 2
+    },
+    "teams,not,working": {
+      "response": "Microsoft Teams acting up? Try this:\n\n1. Restart Teams or try accessing it via the web.\n\n2. Clear the Teams cache in app settings.\n\n3. Ensure you’re logged into the correct Microsoft account.\n\n4. Need more help? Contact IT Support.",
+      "required_keywords": 2
+    },
+    "software,installation,request": {
+      "response": "Want new software? Here’s how:\n\n1. Fill out the IT service request form on the intranet.\n\n2. Get your supervisor’s approval.\n\n3. Submit it to IT, and they’ll handle the rest.",
+      "required_keywords": 2
+    },
+    "security,alert,email": {
+      "response": "Got a suspicious email? Stay safe:\n\n1. Don’t click any links or attachments.\n\n2. Report it to IT Security via the support form.\n\n3. Delete the email once reported.",
+      "required_keywords": 2
+    },
+    "device,auto,restarting": {
+      "response": "Device restarting on its own? Let’s check it out:\n\n1. Ensure air vents aren’t blocked to prevent overheating.\n\n2. Check that power cables are secure.\n\n3. If it keeps happening, contact IT Support for a hardware check.",
+      "required_keywords": 2
+    },
+    "leave,application,request": {
+      "response": "Need to apply for leave? Easy peasy:\n\n1. Log into the HR Portal.\n\n2. Go to 'Leave Management.'\n\n3. Fill in your details and submit.\n\n4. Wait for your supervisor’s approval.",
+      "required_keywords": 2
+    },
+    "conference,room,booking": {
+      "response": "Want to book a conference room? Here’s how:\n\n1. Visit the internal booking system or contact the Reception Desk.\n\n2. Specify the time, room, and purpose.\n\n3. Wait for a confirmation email.",
+      "required_keywords": 2
+    },
+    "email,signature,update": {
+      "response": "Ready to update your email signature? Follow these steps:\n\n1. Open Outlook settings.\n\n2. Go to 'Mail' > 'Compose and reply.'\n\n3. Edit your signature and save.",
+      "required_keywords": 2
+    },
+    "backup,data,restore": {
+      "response": "Need to restore a file? Here’s what to do:\n\n1. Contact the IT Helpdesk with the file name and date.\n\n2. IT will restore it from backup if available.",
+      "required_keywords": 2
+    },
+    "salary,payslip,access": {
+      "response": "Want to check your payslip? Here’s how:\n\n1. Log into the HR Portal.\n\n2. Navigate to 'Payroll & Payslip.'\n\n3. Select the month and download your slip.",
+      "required_keywords": 2
+    }
+  }
+}

@@ -1,0 +1,107 @@
+ /* ========== Sidebar ========== */
+ .sidebar {
+    background-color: var(--white);
+    padding: var(--space-xl);
+    position: fixed;
+    width: unset;
+    height: 100vh;
+    border-right: 1px solid var(--medium-gray);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xxl);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+}
+
+.logo-circle {
+    width: 36px;
+    height: 36px;
+    background-color: var(--accent-blue);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.nav-item {
+    padding: var(--space-sm) var(--space-md);
+    border-radius: var(--card-radius);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    color: var(--dark-gray);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.nav-item:hover, .nav-item.active {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: var(--accent-blue);
+}
+
+.nav-item.active {
+    font-weight: 500;
+}
+
+.nav-item i {
+    width: 24px;
+    text-align: center;
+}
+
+/* ========== Main Content ========== */
+.main-content {
+    padding: var(--space-xxl);
+    grid-column: 2;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-xxl);
+}
+
+.page-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.user-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: var(--accent-blue);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}

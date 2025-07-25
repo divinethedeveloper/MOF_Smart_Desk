@@ -1,0 +1,64 @@
+{
+    "slow, network, internet, not, working, poor, wifi, cable": {
+      "required_keywords": 2,
+      "steps": [
+        {
+          "text": "Check the taskbar for the network icon. If it is not visible, unplug the Ethernet cable and reconnect it securely.",
+          "image": "./images/network_icon.png"
+        },
+        {
+          "text": "If you are using Wi-Fi, ensure you are connected to a network and that the signal strength is strong.",
+          "image": "./images/network_icon.png"
+        },
+        {
+          "text": "Try accessing the required resource using an alternative browser such as Microsoft Edge.",
+          "image": "./images/other_browsers.png"
+        },
+        {
+          "text": "If the issue persists, contact MOF IT Support via the official support form.",
+          "image": "./images/scan.png"
+        }
+      ],
+      "response": "Trouble signing into Microsoft Office? Let’s fix it:\n\n1. Ensure your internet connection is stable.\n\n2. Double-check your username and password.\n\n3. Restart your computer and try again.\n\n4. Still having issues? Contact IT Support via the support form."
+    },
+    "printer, offline, printing, error, usb, not, working, paper": {
+      "required_keywords": 2,
+      "steps": [
+        {
+          "text": "Check if the printer is powered on.",
+          "image": "./images/printer_on.png"
+        },
+        {
+          "text": "Ensure your pc on the ministry domain.",
+          "image": "./images/domain.png"
+        },
+        {
+            "text": "If the issue persists, contact MOF IT Support via the official support form.",
+            "image": "./images/scan.png"
+          }
+      ]
+    },
+    "slow, pc, lagging, freezing, performance, apps, programs, unresponsive": {
+      "required_keywords": 2,
+      "steps": [
+        {
+          "text": "Check if your hard drive is nearly full. Remove unnecessary files to free up space.",
+          "image": "./images/harddrive.png"
+        },
+        {
+          "text": "Close any unused applications running in the background.",
+          "image": "./images/background.png"
+        },
+        {
+          "text": "Restart your PC to refresh system performance.",
+          "image": "./images/restart.png"
+        },
+        {
+          "text": "If the issue persists, contact MOF IT Support via the official support form.",
+          "image": "./images/scan.png"
+        }
+      ],
+      "response": "Is your PC moving like a snail? Try these:\n\n1. Check if your hard drive is full—delete unneeded files.\n\n2. Close any unused apps running in the background.\n\n3. Restart your PC to give it a breather.\n\n4. Run an antivirus scan to rule out issues.\n\n5. Still slow? Contact IT Support for a deeper look."
+    }
+  }
+  
